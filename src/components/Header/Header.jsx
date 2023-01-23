@@ -35,7 +35,7 @@ export default function Header() {
                   ml="auto"
                 >
                   <>
-                    <Avatar alt={user?.name} src="/broken-image.jpg" />
+                    <Avatar alt={user?.name} />
                     <Typography variant="h6" component="p" mr={2}>
                       Hi, {user?.name}
                     </Typography>

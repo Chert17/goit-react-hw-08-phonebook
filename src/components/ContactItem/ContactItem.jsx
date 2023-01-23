@@ -31,7 +31,7 @@ export default function ContactItem({ id, name, number }) {
         sx={{ display: 'flex', justifyContent: 'space-between' }}
       >
         <Box display="flex" gap={1} alignItems="center">
-          <Avatar sx={{ mr: 2 }} alt={name} src="/broken-image.jpg" />
+          <Avatar sx={{ mr: 2 }} alt={name} />
           <ListItemText
             primary={<Typography color="#fff">{name}</Typography>}
             secondary={<Typography>{number}</Typography>}
